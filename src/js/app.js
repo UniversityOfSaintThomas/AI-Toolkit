@@ -756,3 +756,8 @@ document.addEventListener("DOMContentLoaded", function () {
     filterIdeas();
   }
 });
+
+// Handle hash changes after page load
+window.addEventListener("hashchange", function () {
+  openProjectFromHash();
+});
