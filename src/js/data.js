@@ -988,6 +988,13 @@ const ideasData = [
     date: "2025-10-27",
     description: `
       <p>
+        In the attached resource, I provide a set of <strong>steps</strong> as well as a <strong>template</strong> 
+        for how you can use <em>AI</em> to generate a <strong>synthetic dataset</strong> that you wish students 
+        to analyze as part of an assignment. The steps below detail how I came up with this framework and template; 
+        the actual framework and template is in the attached <strong>PDF</strong>.
+      </p>
+      
+      <p>
         <strong>Step 1:</strong> I first asked for best practices and suggestions from 
         <em>Claude 3.7 Sonnet</em> for generating datasets for academic assignments.
       </p>
