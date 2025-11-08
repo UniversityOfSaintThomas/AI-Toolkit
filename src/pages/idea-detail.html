@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="View detailed AI implementation ideas from the University of St. Thomas faculty and staff."
+    />
+    <title>Idea Details | AI Toolkit</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header Navigation -->
+    <header>
+      <div class="header-content">
+        <a href="../../" class="logo">
+          <img
+            src="../../public/images/logo.png"
+            alt="University of St. Thomas logo"
+            class="logo-img"
+          />
+          <div class="logo-text">
+            <h1>AI Toolkit</h1>
+            <p>University of St. Thomas</p>
+          </div>
+        </a>
+
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+          <span class="navicon"></span>
+        </label>
+
+        <nav class="menu">
+          <a href="../../">Home</a>
+          <a href="ai-idea-book.html" class="active">AI Idea Book</a>
+          <a href="grant-projects.html">Innovation Fellows</a>
+          <a
+            href="https://one.stthomas.edu/sites/ai/SitePageModern/232798/ai-home"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            St. Thomas Resources
+          </a>
+          <a
+            href="https://stthomas.az1.qualtrics.com/jfe/form/SV_06P8AaY1tvoqJue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Submit Your Idea
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Page Header -->
+      <section class="page-header">
+        <div class="container">
+          <h2 id="idea-title">Loading idea...</h2>
+          <div class="hero-actions">
+            <a href="ai-idea-book.html" class="btn btn-secondary">
+              <i class="fas fa-arrow-left" aria-hidden="true"></i>
+              Back to AI Idea Book
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Idea Metadata Bar -->
+      <section class="idea-meta-bar">
+        <div class="container">
+          <ul class="idea-meta-list">
+            <li class="idea-meta-item">
+              <i class="fas fa-user" aria-hidden="true"></i>
+              <span id="idea-author">Loading...</span>
+            </li>
+            <li class="idea-meta-item">
+              <i class="fas fa-university" aria-hidden="true"></i>
+              <span id="idea-department">Loading...</span>
+            </li>
+            <li class="idea-meta-item">
+              <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+              <span id="idea-date">Loading...</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Idea Content Section -->
+      <section class="idea-content">
+        <div class="container">
+          <div class="content-grid">
+            <!-- Main Content Column -->
+            <main class="main-content">
+              <!-- Description Card -->
+              <div class="content-card">
+                <div class="card-header">
+                  <h3>
+                    <i class="fas fa-align-left" aria-hidden="true"></i>
+                    Description
+                  </h3>
+                </div>
+                <div class="card-body">
+                  <div id="idea-description" class="rich-text">
+                    Loading description...
+                  </div>
+                </div>
+              </div>
+
+              <!-- Resource Card -->
+              <div class="content-card" id="resource-section">
+                <div class="card-header">
+                  <h3>
+                    <i class="fas fa-file-alt" aria-hidden="true"></i>
+                    Resources
+                  </h3>
+                </div>
+                <div class="card-body">
+                  <div id="idea-resource" class="resource-viewer">
+                    <p>Loading resource...</p>
+                    <div class="resource-actions">
+                      <a href="#" id="openResourceBtn" class="btn btn-primary">
+                        <i
+                          class="fas fa-external-link-alt"
+                          aria-hidden="true"
+                        ></i>
+                        Open in New Tab
+                      </a>
+                      <a
+                        href="#"
+                        id="downloadResourceBtn"
+                        class="btn btn-primary"
+                      >
+                        <i class="fas fa-download" aria-hidden="true"></i>
+                        Download
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main>
+
+            <!-- Sidebar Column -->
+            <aside class="sidebar">
+              <!-- Tags Card -->
+              <div class="content-card">
+                <div class="card-header">
+                  <h3>
+                    <i class="fas fa-tags" aria-hidden="true"></i>
+                    Tags
+                  </h3>
+                </div>
+                <div class="card-body">
+                  <ul class="tags-list" id="tags-list">
+                    <li class="tag">Loading...</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Contact Card -->
+              <div class="content-card">
+                <div class="card-header">
+                  <h3>
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    Contact
+                  </h3>
+                </div>
+                <div class="card-body">
+                  <p>Have questions about this implementation?</p>
+                  <a
+                    href="#"
+                    id="contact-author"
+                    class="btn btn-primary btn-block"
+                  >
+                    <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                    Contact Author
+                  </a>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- Related Ideas Section -->
+      <section class="related-ideas">
+        <div class="related-ideas-header">
+          <h3 class="section-title">Related Ideas</h3>
+        </div>
+        <div class="container">
+          <div class="ideas-grid" id="related-ideas-container">
+            <!-- Related ideas dynamically populated by JavaScript -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-bottom">
+          <p>&copy; 2025 University of St. Thomas. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/data.js"></script>
+    <script src="../js/idea-detail.js"></script>
+    <script src="../js/app.js"></script>
+  </body>
+</html>

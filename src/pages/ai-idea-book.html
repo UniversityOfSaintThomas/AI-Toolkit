@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browse AI implementation ideas from the University of St. Thomas faculty and staff."
+    />
+    <title>AI Idea Book | AI Toolkit</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header Navigation -->
+    <header>
+      <div class="header-content">
+        <a href="../../" class="logo">
+          <img
+            src="../../public/images/logo.png"
+            alt="University of St. Thomas Logo"
+            class="logo-img"
+          />
+          <div class="logo-text">
+            <h1>AI Toolkit</h1>
+            <p>University of St. Thomas</p>
+          </div>
+        </a>
+
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+          <span class="navicon"></span>
+        </label>
+
+        <nav class="menu">
+          <a href="../../">Home</a>
+          <a href="ai-idea-book.html" class="active">AI Idea Book</a>
+          <a href="grant-projects.html">Innovation Fellows</a>
+          <a
+            href="https://one.stthomas.edu/sites/ai/SitePageModern/232798/ai-home"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            St. Thomas Resources
+          </a>
+          <a
+            href="https://stthomas.az1.qualtrics.com/jfe/form/SV_06P8AaY1tvoqJue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Submit Your Idea
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Page Header -->
+      <section class="page-header">
+        <div class="container">
+          <h2>AI Idea Book</h2>
+          <div class="cta-buttons">
+            <a
+              href="https://stthomas.az1.qualtrics.com/jfe/form/SV_06P8AaY1tvoqJue"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+            >
+              Submit Your Idea
+            </a>
+            <a href="#ideas" class="btn btn-secondary">Browse Ideas</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Search and Filters Section -->
+      <section class="filters" id="filters">
+        <div class="container">
+          <div class="search-bar">
+            <input
+              type="text"
+              id="search"
+              placeholder="Search anything: tools, departments, topics, names..."
+              aria-label="Search ideas"
+            />
+            <button id="filter-menu-btn" class="btn btn-primary">
+              Filters
+            </button>
+          </div>
+
+          <!-- Filter Menu Overlay -->
+          <div id="filter-menu" class="filter-menu-overlay" aria-hidden="true">
+            <div class="filter-menu-content">
+              <div class="filter-menu-header">
+                <h3>Filters</h3>
+                <button
+                  id="close-filter-menu"
+                  class="close-filter-menu"
+                  aria-label="Close Filters"
+                >
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+
+              <div class="filter-groups">
+                <!-- Sort By Filter -->
+                <div class="filter-group">
+                  <label for="sort-by">Sort By</label>
+                  <select id="sort-by">
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                  </select>
+                </div>
+
+                <!-- Department Filter -->
+                <div class="filter-group">
+                  <label for="department">Department</label>
+                  <select id="department">
+                    <option value="">All Departments</option>
+                    <!-- Dynamic options inserted by JavaScript -->
+                  </select>
+                </div>
+
+                <!-- AI Tool Filter -->
+                <div class="filter-group">
+                  <label for="ai-tool">AI Tool</label>
+                  <select id="ai-tool">
+                    <option value="">All Tools</option>
+                    <!-- Dynamic options inserted by JavaScript -->
+                  </select>
+                </div>
+
+                <!-- Use Case Filter -->
+                <div class="filter-group">
+                  <label for="use-case">Use Case</label>
+                  <select id="use-case">
+                    <option value="">All Use Cases</option>
+                    <!-- Dynamic options inserted by JavaScript -->
+                  </select>
+                </div>
+
+                <!-- Tags Filter -->
+                <div class="filter-group">
+                  <label for="tag">Tag</label>
+                  <select id="tag">
+                    <option value="">All Tags</option>
+                    <!-- Dynamic options inserted by JavaScript -->
+                  </select>
+                </div>
+
+                <button id="clear-filters" class="btn btn-primary btn-sm">
+                  Clear Filters
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ideas Grid Section -->
+      <section class="ideas" id="ideas">
+        <div class="container">
+          <p class="results-count">
+            <span id="idea-count">0</span> ideas found
+          </p>
+          <div class="ideas-grid" id="ideas-container">
+            <!-- Ideas dynamically populated by JavaScript -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-bottom">
+          <p>&copy; 2025 University of St. Thomas. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/data.js"></script>
+    <script src="../js/app.js"></script>
+  </body>
+</html>
