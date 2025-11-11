@@ -1365,5 +1365,35 @@ const ideasData = [
       "Job Application",
       "Foreign Language",
     ],
+  },
+  {
+    id: 31,
+    title: "Designing AI-Enabled Role-Play Simulations for Teaching Environmental Conflict Negotiation",
+    author: "Matthew Vernon",
+    email: "vern0007@stthomas.edu",
+    department: "Justice and Society Studies and STELAR",
+    date: "2025-11-11",
+    description: `
+      <p>
+        AI-mediated role-play to engage students in environmental conflict scenarios to improve their critical, ethical, and analytical reasoning skills.
+      </p>
+      <p>
+        <strong>Niger Delta Negotiation Simulation System Prompt:</strong>
+
+        <a href="https://mavereks.github.io/tools/Niger%20Delta%20Negotiation%20Simulation.html" target="_blank">
+          Complete System Prompt and Explanation
+        </a>
+
+        <strong>Niger Delta Negotiation Simulation System Prompt:</strong>
+
+        <a href="https://box.boodle.ai/a/@Negotiator1.24" target="_blank">
+          Run the Nile Delta Simulation in Boodlebox</a>
+      </p>
+    `,
+    aiTools: ["BoodleBox", "ChatGPT", "Claude"],
+    useCases: ["Negotiation", "Role Play", "Student Engagement", "Formative Assessment"],
+    resourceType: "pdf",
+    resourceUrl: "public/resources/Nile-Delta-Negotiation-Simultation.PDF",
+    tags: ["Simulation", "Context Engineering", "Negotiation Practice"]
   }
 ];
