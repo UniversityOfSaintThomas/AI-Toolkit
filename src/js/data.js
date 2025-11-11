@@ -1393,7 +1393,7 @@ const ideasData = [
     aiTools: ["BoodleBox", "ChatGPT", "Claude"],
     useCases: ["Negotiation", "Role Play", "Student Engagement", "Formative Assessment"],
     resourceType: "pdf",
-    resourceUrl: "public/resources/Nile-Delta-Negotiation-Simultation.PDF",
+    resourceUrl: "public/resources/Nile-Delta-Negotiation-Simultation.pdf",
     tags: ["Simulation", "Context Engineering", "Negotiation Practice"]
   }
 ];
