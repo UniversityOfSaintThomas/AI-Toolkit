@@ -28,6 +28,13 @@ const ideasData = [
         <strong>Always be sure</strong> to use a system and security settings to optimize data security 
         (<em>i.e., redact student names, do not allow data to be used to train the AI model</em>).
       </p>
+
+      <p>
+        Visit the current draft of the
+        <a href="https://box.boodle.ai/a/@APAStyleChecker1">APA Style Checker Bot</a>,
+        or specifically check the formatting of in-text citations and reference lists with the
+        <a href="https://box.boodle.ai/a/@APACitationChecker">APA Citation Checker Bot</a>.
+      </p>
     `,
     aiTools: ["BoodleBox"],
     useCases: ["Assessment", "Student Feedback", "Research"],
@@ -1375,20 +1382,24 @@ const ideasData = [
     date: "2025-11-11",
     description: `
       <p>
-        AI-mediated role-play to engage students in environmental conflict scenarios to improve their critical, ethical, and analytical reasoning skills.
+        AI-mediated role-play to engage students in environmental conflict
+        scenarios to improve their critical, ethical, and analytical reasoning skills.
       </p>
-      <p>
-        <strong>Niger Delta Negotiation Simulation System Prompt:</strong>
 
-        <a href="https://mavereks.github.io/tools/Niger%20Delta%20Negotiation%20Simulation.html" target="_blank">
-          Complete System Prompt and Explanation
-        </a>
+      <p><strong>Niger Delta Negotiation Simulation Resources:</strong></p>
 
-        <strong>Niger Delta Negotiation Simulation System Prompt:</strong>
-
-        <a href="https://box.boodle.ai/a/@Negotiator1.24" target="_blank">
-          Run the Nile Delta Simulation in Boodlebox</a>
-      </p>
+      <ol style="margin-left: 20px;">
+        <li>
+          <a href="https://mavereks.github.io/tools/Niger%20Delta%20Negotiation%20Simulation.html" target="_blank">
+            Complete System Prompt and Explanation
+          </a>
+        </li>
+        <li>
+          <a href="https://box.boodle.ai/a/@Negotiator1.24" target="_blank">
+            Run the Niger Delta Simulation in BoodleBox
+          </a>
+        </li>
+      </ol>
     `,
     aiTools: ["BoodleBox", "ChatGPT", "Claude"],
     useCases: ["Negotiation", "Role Play", "Student Engagement", "Formative Assessment"],
