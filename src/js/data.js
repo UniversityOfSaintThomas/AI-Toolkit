@@ -31,9 +31,9 @@ const ideasData = [
 
       <p>
         Visit the current draft of the
-        <a href="https://box.boodle.ai/a/@APAStyleChecker1">APA Style Checker Bot</a>,
+        <a href="https://box.boodle.ai/a/@APAStyleChecker1" target="_blank">APA Style Checker Bot</a>,
         or specifically check the formatting of in-text citations and reference lists with the
-        <a href="https://box.boodle.ai/a/@APACitationChecker">APA Citation Checker Bot</a>.
+        <a href="https://box.boodle.ai/a/@APACitationChecker" target="_blank">APA Citation Checker Bot</a>.
       </p>
     `,
     aiTools: ["BoodleBox"],
