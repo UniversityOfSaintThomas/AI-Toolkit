@@ -1378,7 +1378,7 @@ const ideasData = [
     title: "Designing AI-Enabled Role-Play Simulations for Teaching Environmental Conflict Negotiation",
     author: "Matthew Vernon",
     email: "vern0007@stthomas.edu",
-    department: "Justice and Society Studies and STELAR",
+    department: "STELAR",
     date: "2025-11-11",
     description: `
       <p>
