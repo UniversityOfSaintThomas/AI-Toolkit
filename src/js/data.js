@@ -1406,5 +1406,234 @@ const ideasData = [
     resourceType: "pdf",
     resourceUrl: "public/resources/Nile-Delta-Negotiation-Simultation.pdf",
     tags: ["Simulation", "Context Engineering", "Negotiation Practice"]
+  },
+  {
+    id: 32,
+    title: "Updating Accreditation Standards and Combining Field Manuals",
+    author: "Glori Hinck",
+    email: "ghinck@stthomas.edu",
+    department: "STELAR",
+    date: "2025-11-22",
+    description: `
+      <p>
+        This project illustrates how <strong>BoodleBox AI</strong> allowed us to quickly and easily update the 
+        existing University of St. Thomas School of Social Work <em>BSW</em> and <em>MSW</em> Field Education Manuals 
+        to the 2022 CSWE Educational Policy and Accreditation Standards, and to combine these manuals into one 
+        unified document. The updated manual merges BSW and MSW program requirements while maintaining elements 
+        specific to each program. Key focus areas from the new standards included integrating 
+        <strong>anti-racism, diversity, equity, and inclusion (ADEI)</strong> principles throughout all sections, 
+        ensuring alignment with the nine social work competencies, and updating field education policies, forms, 
+        evaluation tools, and supervision requirements to meet the new standards.
+      </p>
+
+      <p>
+        The faculty are currently reviewing the updated manual, and we will be meeting to finalize it in several 
+        weeks. A similar process and prompts could be used to update comparable documents across the university.
+      </p>
+
+      <p><strong>Specific Prompt Used:</strong></p>
+      <p>
+        “I need to build a bot that will help update and blend field manuals for social work graduate summer 
+        projects for field education. Our accrediting body has updated our standards, and we need to adjust the 
+        manual to reflect the new standards. I attached the 2022 Educational Policy and Accreditation Standards 
+        and the BSW Field Manual.”
+      </p>
+
+      <p>
+        I then pasted the instructions from the bot builder into a new chat using Claude 3.7 Sonnet and iterated 
+        based on my discussions with Claude and the involved faculty.
+      </p>
+
+      <p>
+        View the BoodleBox chat thread and the Claude Sonnet 3.7 results here:
+        <a href="https://box.boodle.ai/c/49547726-6028-404b-804e-eccb0f0606ff" target="_blank">
+          Accreditation Standards Revision Workflow
+        </a>.
+      </p>
+
+      <p>
+        This use case could have a major impact across the university when accreditation standards are updated. 
+        It would save significant time, reduce errors through improved accuracy, and improve quality and 
+        accessibility—especially through consistent formatting. Without AI, faculty would have had to manually 
+        compare and edit each field manual against the standards and determine how to clearly combine the two 
+        manuals into one. Using BoodleBox, we spent approximately one hour working together and generated an 
+        excellent first draft ready for review and editing.
+      </p>
+
+      <p>
+        This approach should greatly support future accreditation visits and simplify onboarding for field 
+        instructors.
+      </p>
+    `,
+    aiTools: ["BoodleBox", "Claude"],
+    useCases: ["Summer Competition"],
+    resourceType: "",
+    resourceUrl: "",
+    tags: ["Accreditation", "ADEI"],
+  },
+  {
+    id: 33,
+    title: "Developing Medical Case Studies with AI",
+    author: "Glori Hinck",
+    email: "ghinck@stthomas.edu",
+    department: "STELAR",
+    date: "2025-11-22",
+    description: `
+      <p>
+        I worked collaboratively with Dr. Lesley Scibora to teach her how to use generative AI and, in the process, 
+        we created a comprehensive medical case study for her course as well as a conference presentation proposal. 
+        This project demonstrates a practical, iterative approach to using AI to develop complex anatomical case 
+        studies that can be delivered in multiple formats.
+      </p>
+
+      <p>
+        A simple initial prompt was entered using the BoodleBox prompt bot and then iterated with 
+        <strong>Claude 3.7 Sonnet</strong>. Through this process, we developed engaging hybrid activities and a 
+        comprehensive, interactive hip pain case study titled <em>"The Marathon Runner’s Dilemma."</em> Additional 
+        prompting helped structure and sequence an Articulate Rise lesson, create hybrid classroom activities, and 
+        outline step-by-step guidance for building lessons using Zoom Whiteboards. A proposal has been submitted to 
+        the Fall 2025 Applied AI Conference.
+      </p>
+
+      <p><strong>Specific Prompts Used:</strong></p>
+
+      <p>
+        <div style="margin-left: 20px;">
+          <ul>
+            <li>Initial vague prompt (Claude 3.7 Sonnet): “Give me ideas for interactive activities for a human anatomy course that is hybrid.”</li>
+            <li>User follow-up: “Please elaborate on this: Case Studies — Present clinical scenarios students solve asynchronously.”</li>
+            <li>Iterative prompt: “Help me develop a prompt to create an anatomy case study around hip pain.”</li>
+            <li>Enhanced prompt generated by Claude:</li>
+          </ul>
+        </div>
+
+        <div style="margin-left: 40px;">
+          <ol>
+            <li><em>Patient Profile:</em> age, gender, occupation, lifestyle factors</li>
+            <li><em>Chief Complaint:</em> location, characteristics, aggravating and alleviating factors, duration</li>
+            <li><em>Relevant History:</em> medical history, activity level, previous injuries, family history</li>
+            <li><em>Physical Examination Findings:</em> range of motion, special tests, muscle strength, gait assessment</li>
+            <li>Include 3–4 questions asking students to identify relevant anatomy, explain biomechanics, propose differential diagnoses, and suggest appropriate imaging studies</li>
+            <li>Provide a detailed answer key explaining the anatomical reasoning behind each response</li>
+          </ol>
+        </div>
+
+        <div style="margin-left: 20px;">
+          <ul>
+            <li>Iterative prompt: “Develop an interactive and collaborative activity around this case that can be done asynchronously.”</li>
+            <li>Iterative prompt: “Use Zoom Whiteboards.”</li>
+            <li>Iterative prompt: “Present this case in a structured way that could be used to build an Articulate Rise lesson titled <em>Hip Pain Case Study: ‘The Marathon Runner’s Dilemma.’</em> Include lesson titles such as History and Exam Findings, Knowledge Checks, Imaging Studies, and collaborative activities.”</li>
+          </ul>
+        </div>
+      </p>
+
+      <p>
+        This workflow demonstrates a practical strategy that enables beginning AI users to rapidly create complex 
+        educational content without sacrificing instructional quality or subject-matter accuracy. It also illustrates 
+        how AI can streamline development timelines across platforms and disciplines. Dr. Scibora frequently said 
+        <strong>“Holy Moly!”</strong> during the demonstration and is excited to create additional case studies for 
+        her course.
+      </p>
+    `,
+    aiTools: ["Claude", "BoodleBox"],
+    useCases: ["Summer Competition"],
+    resourceType: "",
+    resourceUrl: "",
+    tags: ["Case Studies"],
+  },
+  {
+    id: 34,
+    title: "Alt Text Writing Guide as an Alternative Format to a PDF Flow Chart",
+    author: "Jo Montie",
+    email: "jkmontie@stthomas.edu",
+    department: "STELAR",
+    date: "2025-11-22",
+    description: `
+      <p>
+        To make images accessible to everyone, you must decide when to use only alt text, when to provide a 
+        detailed image description, or when to include both. I found the Alt Text Flow Chart (Public Domain 
+        Canvas Training course) helpful, but it was itself just an image, making it inaccessible to 
+        screen-reader users or anyone who struggles with flow charts. I asked ChatGPT to create an alternative 
+        format—a full image description that could accompany the PDF—and was very pleased with the results.
+      </p>
+
+      <p><strong>Specific Prompt(s) Used:</strong></p>
+
+      <p>
+        <div style="margin-left: 20px;">
+          <ul>
+            <li>“Please take this flow chart image PDF file, and write out directions that would fully describe what the flow chart is communicating to a sighted user.”</li>
+            <li>After receiving the information and making slight edits: “Please take the attached text response and turn it into an MS Word document.”</li>
+          </ul>
+        </div>
+      </p>
+
+      <p>
+        This process saved significant time in creating an image description for a flow chart and was essential 
+        for improving accessibility when the content is important for users to understand. Before using AI, I 
+        checked the PDF using the YuJa Panorama accessibility checker, which confirmed that the reading order 
+        was inaccurate—an issue for screen-reader users. The alternative text version generated through ChatGPT 
+        provides clearer access not only for blind users but also for anyone who learns better from written, 
+        step-by-step explanations rather than visual flow charts.
+      </p>
+
+      <p>
+        This approach could be used by faculty, staff, and students for creating accessible alternative formats 
+        for images, infographics, and flow charts more quickly and effectively across the university.
+      </p>
+    `,
+    aiTools: ["ChatGPT"],
+    useCases: ["Summer Competition"],
+    resourceType: "",
+    resourceUrl: "",
+    tags: ["Accessibility", "Alt Text"],
+  },
+  {
+    id: 35,
+    title: "Digital Accessibility Module Discussion Data Analysis",
+    author: "Meenu Bala",
+    email: "bala5797@stthomas.edu",
+    department: "STELAR",
+    date: "2025-11-22",
+    description: `
+      <p>
+        Use <strong>BoodleBox</strong> and <strong>ChatGPT</strong> to analyze and summarize digital accessibility module discussion 
+        data for shared and unique data themes across two data sets. Our Digital Accessibility module includes 
+        numerous learner reflections upon four questions about learning from the module. I led a process, also 
+        gaining input from other team members, to develop a way to use AI to further help us learn from this rich 
+        discussion data.
+      </p>
+
+      <p>
+        Initially, I tried PrintFriendly to collect discussion data in a PDF format. However, since it was an 
+        image PDF, it could not be easily cleaned (e.g., removing identifying information). For a second approach, 
+        I created an Excel spreadsheet with relevant column names, inserted the discussion data for specific months, 
+        and removed PII information. The cleaned data was shared with a team member for peer review. After this, I 
+        performed analysis using Python and then used AI to further analyze the data.
+      </p>
+
+      <p><strong>Specific Prompt(s) Used:</strong></p>
+
+      <p>
+        <div style="margin-left: 20px;">
+          <ul>
+            <li>Task: Use BoodleBox ChatGPT to analyze Digital Accessibility Module discussion data for shared and unique data themes across two datasets. Also, come up with a summary report in PowerPoint format.</li>
+            <li>Prompt 1: Analyze dataset Oct 2024 and Mar 2025, provide me summary report with complete data analysis.</li>
+            <li>Response: "Here's a comprehensive summary report based on the analysis of the October 2024 and March 2025 datasets for the Digital Basics Badge course..."</li>
+          </ul>
+        </div>
+      </p>
+
+      <p>
+        This analysis provided insights into common issues learners face regarding digital accessibility, highlighted 
+        key improvements, and identified emerging topics over time. Using AI helped identify patterns and trends 
+        that would have been time-consuming to analyze manually.
+      </p>
+    `,
+    aiTools: ["BoodleBox", "ChatGPT"],
+    useCases: ["Summer Competition"],
+    resourceType: "",
+    resourceUrl: "",
+    tags: ["Data Analysis"],
   }
 ];
