@@ -38,13 +38,9 @@ If your idea includes a file resource (PDF, video, image, etc.):
 
 1. Open `src/js/data.js`
 
-2. Locate the `ideasData` array (starts with `const ideasData = [`)
+2. Locate the `ideasData` array
 
-3. Find the last idea in the array (ends with `}`)
-
-4. Add a comma `,` after the last idea's closing bracket
-
-5. Copy and paste this template then fill in your information:
+3. Copy and paste this template then fill in your information:
 
 ```javascript
 {
