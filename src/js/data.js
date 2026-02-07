@@ -1635,5 +1635,63 @@ const ideasData = [
     resourceType: "",
     resourceUrl: "",
     tags: ["Data Analysis"],
+  },
+  {
+    id: 36,
+    title: "MegaMentor GPT",
+    author: "Ellie Speedling",
+    email: "ellie.speedling@stthomas.edu",
+    department: "School of Law - Mentor Externship",
+    date: "2026-02-06",
+    description: `
+      <p>
+        This GPT is used by students and mentors (attorneys and judges) in Mentor Externship at St. Thomas Law. 
+        This is a three-year externship that all students take. 1L students only have a fieldwork component, 
+        while 2L and 3L students have classroom and fieldwork components.
+      </p>
+
+      <p>
+        This GPT uses the uploaded documents/knowledge to respond to mentor and student questions. Uploaded 
+        documents are updated before the beginning of each academic year and new dates or requirements should 
+        be considered.
+      </p>
+
+      <p>
+        In addition to externship guidance, <em>MegaMentor</em> integrates support for developing analytical, 
+        practical, and communication skills aligned with the NextGen Bar Exam. It uses and models NextGen 
+        terminology and offers reflection prompts, mentor discussion ideas, and practice suggestions to help 
+        students build skills tested on the NextGen Bar Exam.
+      </p>
+
+      <p>
+        <em>MegaMentor</em> can also help draft communication and questions to mentors, but students should not 
+        copy and paste MegaMentor’s responses into emails or other communications. Instead, they are prompted 
+        to use MegaMentors response to them as a starting point or guide for developing their professional 
+        relationship with their mentor and maximizing the opportunities available in Mentor Externship.
+      </p>
+
+      <p>
+        What makes <em>MegaMentor</em> unique from other AI resources is that it is trained on Mentor Externship 
+        materials and is designed to make mentorship more accessible, strengthening human connection instead 
+        of replacing it.
+      </p>
+
+      <p>
+        <strong>Limitations Noted:</strong> MegaMentor is very good at giving advice and generating ideas, 
+        however, it seems to hallucinate more nuanced questions about policies. Updating the instructions 
+        with clear, precise language seems to have helped but has not entirely alleviated hallucinations.
+      </p>
+
+      <p>
+        <a href="https://chatgpt.com/g/g-67b4a3160c7081919fc23e575dcc6d09-megamentor" target="_blank">
+          <strong>Open MegaMentor GPT</strong>
+        </a>
+      </p>
+    `,
+    aiTools: ["ChatGPT"],
+    useCases: ["Accessibility", "Collaboration"],
+    resourceType: "",
+    resourceUrl: "",
+    tags: ["ChatGPT", "Relationship Building", "Mentorship"],
   }
 ];
