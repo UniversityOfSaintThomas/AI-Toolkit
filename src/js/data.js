@@ -1693,5 +1693,23 @@ const ideasData = [
     resourceType: "",
     resourceUrl: "",
     tags: ["ChatGPT", "Relationship Building", "Mentorship"],
+  },
+  {
+    id: 37,
+    title: "Quantum Chemistry Demonstration Site",
+    author: "Joshua Layfield",
+    email: "jlayfield@stthomas.edu",
+    department: "Chemistry",
+    date: "2026-04-01",
+    description: `
+      <p>
+        I built a demonstration website for a series of topics in my Quantum Chemistry.
+      </p>
+    `,
+    aiTools: ["Claude", "Gemini", "Antigravity"],
+    useCases: ["Content Creation", "Instructor Efficiency"],
+    resourceType: "pdf",
+    resourceUrl: "public/resources/Quantum-Chem-Project-Overview.pdf",
+    tags: ["Chemistry", "Quantum Mechanics", "Teaching Tools"],
   }
 ];
