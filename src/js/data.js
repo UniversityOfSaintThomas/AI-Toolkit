@@ -1626,24 +1626,32 @@ const ideasData = [
         I have primarily used large language models (e.g., ChatGPT) as a flexible, general-purpose assistant across research, teaching, and course design. In addition, I integrate AI conceptually into student workflows as a revision and research support tool rather than a content generator.
       </p>
 
+      <br />
+
       <p><strong>Approach</strong></p>
       <p>
         I use AI as an iterative collaborator rather than a source of final answers. My implementation falls into three main areas:
       </p>
 
+      <br />
+
       <p><strong>1. Research and data analysis</strong></p>
       <p>
         I use AI to support statistical analysis and coding in R, particularly as I work with more advanced methods (e.g., cumulative link mixed models). This includes debugging code, structuring workflows, refining visualizations, and helping interpret model outputs. AI allows me to move more efficiently between conceptual questions and implementation, especially when working across multiple packages and complex datasets.
       </p>
+
       <p>
         In manuscript development, I use AI as a second reader and editor. I draft all core content myself, then use AI to refine clarity, improve structure, and help respond to reviewer comments in a systematic way.
       </p>
+
+      <br />
 
       <p><strong>2. Teaching and course design</strong></p>
       <p>
         I use AI extensively to build and refine assignments, labs, and rubrics. This includes:
       </p>
-      <div style="margin-left: 20px;">
+
+      <div style="margin-left: 20px; margin-bottom: 12px;">
         <ul>
           <li>Designing scaffolded assignments (proposal → progress → final report)</li>
           <li>Generating clear, structured instructions for students</li>
@@ -1651,25 +1659,31 @@ const ideasData = [
           <li>Troubleshooting technical workflows (e.g., GIS tools, remote sensing data access)</li>
         </ul>
       </div>
+
       <p>
         More importantly, I explicitly integrate AI into student learning. In several assignments, students are required to:
       </p>
-      <div style="margin-left: 20px;">
+
+      <div style="margin-left: 20px; margin-bottom: 12px;">
         <ul>
           <li>Use AI to revise their work</li>
           <li>Document their interaction with the AI</li>
           <li>Compare original, AI-edited, and final versions</li>
         </ul>
       </div>
+
       <p>
         This positions AI as a transparent tool for revision and critical thinking, rather than something to avoid or misuse.
       </p>
+
+      <br />
 
       <p><strong>3. Research infrastructure and tool development</strong></p>
       <p>
         In a long-term research project (a relational database for microbialite analysis), I use AI to support system design and development across multiple layers:
       </p>
-      <div style="margin-left: 20px;">
+
+      <div style="margin-left: 20px; margin-bottom: 12px;">
         <ul>
           <li>Database schema design (PostgreSQL)</li>
           <li>Backend API development (Node/Express)</li>
@@ -1677,15 +1691,19 @@ const ideasData = [
           <li>Image workflows (large scientific image tiling and visualization)</li>
         </ul>
       </div>
+
       <p>
         AI is particularly valuable here as a “translator” between older systems I’ve used extensively (e.g., MS Access) and newer web-based architectures. It allows me to build and understand a full-stack system while learning incrementally.
       </p>
+
+      <br />
 
       <p><strong>Challenges</strong></p>
       <p>
         The primary challenge is ensuring that AI use remains intentional and transparent.
       </p>
-      <div style="margin-left: 20px;">
+
+      <div style="margin-left: 20px; margin-bottom: 12px;">
         <ul>
           <li>AI can produce plausible but incorrect outputs, especially in technical contexts (coding, statistics), so all results require verification.</li>
           <li>There is a risk of over-reliance, particularly for students, which I address by requiring documentation and comparison of AI-assisted work.</li>
@@ -1693,11 +1711,14 @@ const ideasData = [
         </ul>
       </div>
 
+      <br />
+
       <p><strong>Outcomes</strong></p>
       <p>
         Using AI in this way has led to several clear outcomes:
       </p>
-      <div style="margin-left: 20px;">
+
+      <div style="margin-left: 20px; margin-bottom: 12px;">
         <ul>
           <li>Increased efficiency in coding, data analysis, and troubleshooting</li>
           <li>Improved clarity and organization in written work and teaching materials</li>
@@ -1705,6 +1726,7 @@ const ideasData = [
           <li>Enhanced student engagement with AI as a tool, rather than a shortcut</li>
         </ul>
       </div>
+
       <p>
         More broadly, this approach has allowed me to treat AI as a general-purpose intellectual support tool—one that helps reduce friction in technical and creative work while keeping domain expertise and critical thinking at the center.
       </p>
@@ -1718,8 +1740,8 @@ const ideasData = [
       "Grading",
       "Assessment",
     ],
-    resourceType: "pdf",
-    resourceUrl: "public/resources/Quantum-Chem-Project-Overview.pdf",
+    resourceType: "",
+    resourceUrl: "",
     tags: [
       "Peer Reviewed Publication",
       "Research Assistant",
