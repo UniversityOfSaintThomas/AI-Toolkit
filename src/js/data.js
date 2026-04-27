@@ -1704,6 +1704,7 @@ const ideasData = [
     description: `
       <p>
         I built a demonstration website for a series of topics in my Quantum Chemistry.
+        jolayfield.github.io/CHEM332-content
       </p>
     `,
     aiTools: ["Claude", "Gemini", "Antigravity"],
