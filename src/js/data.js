@@ -288,7 +288,8 @@ const ideasData = [
   },
   {
     id: 10,
-    title: "Using AI to Convert Course Materials from In-Person to Online: Evaluating Information Sources on Food Processing and Ingredients",
+    title:
+      "Using AI to Convert Course Materials from In-Person to Online: Evaluating Information Sources on Food Processing and Ingredients",
     author: "Amber Roy",
     email: "roy07948@stthomas.edu",
     department: "Health and Exercise Science",
@@ -303,58 +304,22 @@ const ideasData = [
       </p>
     `,
     aiTools: ["Claude", "BoodleBox"],
-    useCases: ["Assessment", "Content Creation", "Course Design", "Student Projects"],
+    useCases: [
+      "Assessment",
+      "Content Creation",
+      "Course Design",
+      "Student Projects",
+    ],
     resourceType: "pdf",
-    resourceUrl: "public/resources/Evaluating-Information-Sources-on-Food-Processing-and-Ingredients.pdf",
+    resourceUrl:
+      "public/resources/Evaluating-Information-Sources-on-Food-Processing-and-Ingredients.pdf",
     tags: ["Redesign", "Assessment", "Food Science", "Public Health"],
   },
   {
     id: 11,
-    title: "Creating Learning Targets with AI",
-    author: "Gracie Scott",
-    email: "scot4584@stthomas.edu",
-    department: "STELAR",
-    date: "2025-08-17",
-    description: `
-      <p>
-        I used AI to help me translate my course assignments into clear, student-friendly 
-        <strong>learning targets</strong>.
-      </p>
-
-      <p>
-        My approach was to provide the AI with my planned assignments and ask it to generate 
-        <strong>“I can…”</strong> statements that were both accessible and tied to higher-order thinking. 
-        The challenge was making sure the language was accurate for college-level students while still being inclusive.
-      </p>
-
-      <p>
-        The benefit is that it saves me time while also giving students clearer guidance on what they’re expected to learn, 
-        which I believe will improve engagement and transparency in my online course.
-      </p>
-
-      <p>
-        The outcome was a set of learning targets that I could easily post in Canvas and directly connect to assignments.
-      </p>
-    `,
-    aiTools: ["ChatGPT", "Copilot", "Gemini"],
-    useCases: ["Course Design", "Course Quality Assurance"],
-    resourceType: "pdf",
-    resourceUrl: "public/resources/Prompt-1-Creating-Learning-Targeta-with-AI.pdf",
-    tags: [
-      "Generating Learning Targets",
-      "Bloom's Taxonomy",
-      "Assignment Alignment",
-      "Student-Friendly Outcomes",
-      "Online Course Design",
-      "Accessibility",
-      "Engaged Learning",
-    ],
-  },
-  {
-    id: 12,
     title: "Brainstorming Assignments for Specific Learning Targets",
     author: "Gracie Scott",
-    email: "scot4584@stthomas.edu",
+    email: "stelar@stthomas.edu",
     department: "STELAR",
     date: "2025-08-17",
     description: `
@@ -379,9 +344,17 @@ const ideasData = [
       </p>
     `,
     aiTools: ["Copilot", "ChatGPT", "Gemini"],
-    useCases: ["Accessibility", "Assessment", "Content Creation", "Instructor Efficiency", "Student Projects", "Course Quality Assurance"],
+    useCases: [
+      "Accessibility",
+      "Assessment",
+      "Content Creation",
+      "Instructor Efficiency",
+      "Student Projects",
+      "Course Quality Assurance",
+    ],
     resourceType: "pdf",
-    resourceUrl: "public/resources/Brainstorming-Assignments-for-Specific-Learning-Targets.pdf",
+    resourceUrl:
+      "public/resources/Brainstorming-Assignments-for-Specific-Learning-Targets.pdf",
     tags: [
       "Assignment Brainstorming",
       "Learning Target Alignment",
@@ -391,10 +364,10 @@ const ideasData = [
     ],
   },
   {
-    id: 13,
+    id: 12,
     title: "Accessibility & LMS-Ready Content",
     author: "Gracie Scott",
-    email: "scot4584@stthomas.edu",
+    email: "stelar@stthomas.edu",
     department: "STELAR",
     date: "2025-08-17",
     description: `
@@ -431,152 +404,9 @@ const ideasData = [
     ],
   },
   {
-    id: 14,
-    title: "Class Assignment Example Generator",
-    author: "Gracie Scott",
-    email: "scot4584@stthomas.edu",
-    department: "STELAR",
-    date: "2025-08-17",
-    description: `
-      <p>
-        I used AI via <strong>BoodleBox’s @class-assignments tool</strong> to generate a clear, 
-        <strong>student-friendly example</strong> for a complex writing assignment.
-      </p>
-
-      <p>
-        My approach involved inputting the full assignment description, specifying accessibility needs 
-        (e.g., simplified language, step-by-step guidance, examples of common mistakes), and asking AI 
-        to model a finished version.
-      </p>
-
-      <p>
-        Challenges included ensuring that AI-generated examples did not oversimplify academic expectations 
-        while remaining accessible.
-      </p>
-
-      <p>
-        The potential benefits included providing students with a clear reference, reducing confusion, 
-        and making the assignment approachable for all learners.
-      </p>
-    `,
-    aiTools: ["BoodleBox"],
-    useCases: ["Assessment", "Content Creation", "Course Design", "Instructor Efficiency", "Student Projects"],
-    resourceType: "pdf",
-    resourceUrl: "public/resources/Creating-Assignment-Examples.pdf",
-    tags: ["Assignment Example", "Student Reference", "Accessibility", "Scaffolded Learning"],
-  },
-  {
-    id: 15,
-    title: "Organizing Your Syllabus",
-    author: "Gracie Scott",
-    email: "scot4584@stthomas.edu",
-    department: "STELAR",
-    date: "2025-08-17",
-    description: `
-      <p>
-        I uploaded my existing syllabus to <strong>BoodleBox’s @course-syllabus tool</strong> and applied 
-        the <strong>UST Course Syllabus Template</strong>.
-      </p>
-
-      <p>
-        My approach involved specifying the audience as first-year college English students and requesting 
-        accessibility enhancements (e.g., alt text, clear headings, readable font).
-      </p>
-
-      <p>
-        The main challenge was ensuring that AI properly left blank sections I couldn’t fill and maintained 
-        the correct academic tone.
-      </p>
-
-      <p>
-        Benefits included saving time on formatting, improving clarity, and creating a syllabus that was 
-        more readable and inclusive.
-      </p>
-
-      <p>
-        The outcome was a <strong>student-centered, well-structured syllabus</strong> that was fully 
-        accessible and easy to navigate.
-      </p>
-    `,
-    aiTools: ["BoodleBox"],
-    useCases: ["Content Creation", "Instructor Efficiency", "Course Quality Assurance"],
-    resourceType: "pdf",
-    resourceUrl: "public/resources/Syllabus-AI.pdf",
-    tags: ["Syllabus Design", "Accessibility", "Student-Centered", "AI Syllabus Generator"],
-  },
-  {
-    id: 16,
-    title: "Creating a Rubric",
-    author: "Gracie Scott",
-    email: "scot4584@stthomas.edu",
-    department: "STELAR",
-    date: "2025-08-17",
-    description: `
-      <p>
-        Using the <strong>@edu-rubric tool</strong>, I generated a <strong>rubric</strong> for a writing 
-        assignment with defined criteria, point scales, and descriptive examples for each performance level.
-      </p>
-
-      <p>
-        My approach involved specifying assignment details, performance expectations, and accessibility 
-        considerations for students with reading or language challenges.
-      </p>
-
-      <p>
-        Challenges included ensuring descriptors were precise enough to evaluate work consistently while 
-        being understandable for all students.
-      </p>
-
-      <p>
-        Benefits included faster rubric creation, clear grading standards, and enhanced transparency for students.
-      </p>
-
-      <p>
-        The outcome was a detailed, <strong>accessible rubric</strong> that could be shared with students to 
-        clarify expectations and support equitable assessment.
-      </p>
-    `,
-    aiTools: ["BoodleBox"],
-    useCases: ["Accessibility", "Content Creation", "Course Design", "Instructor Efficiency", "Student Projects", "Course Quality Assurance"],
-    resourceType: "pdf",
-    resourceUrl: "public/resources/Creating-Rubric.pdf",
-    tags: ["Rubric Creation", "AI Grading Support", "Accessibility", "Inclusive Assessment", "Performance Descriptors"],
-  },
-  {
-    id: 17,
-    title: "Scaffolding an Assignment",
-    author: "Gracie Scott",
-    email: "scot4584@stthomas.edu",
-    department: "STELAR",
-    date: "2025-08-17",
-    description: `
-      <p>
-        My approach included requesting strategies to support diverse learning needs, such as <strong>visual aids</strong> 
-        or <strong>alternative formats</strong>.
-      </p>
-
-      <p>
-        Challenges included ensuring that the scaffolded plan balanced academic rigor with accessibility.
-      </p>
-
-      <p>
-        Benefits included providing structured support for students, fostering independent learning, and increasing engagement.
-      </p>
-
-      <p>
-        The outcome was a <strong>scaffolded assignment plan</strong> that guided students through the learning process 
-        while being accessible for all.
-      </p>
-    `,
-    aiTools: ["ChatGPT", "Copilot", "BoodleBox"],
-    useCases: ["Assessment", "Collaboration", "Content Creation", "Course Design", "Instructor Efficiency", "Student Projects", "Course Quality Assurance"],
-    resourceType: "pdf",
-    resourceUrl: "public/resources/Scaffolding-an-Assignment.pdf",
-    tags: ["Assignment Scaffolding", "AI Lesson Planning", "Accessibility", "Student Engagement"],
-  },
-  {
-    id: 18,
-    title: "Converting an Individual Reflection Assignment to a Discussion Board",
+    id: 13,
+    title:
+      "Converting an Individual Reflection Assignment to a Discussion Board",
     author: "Amber Roy",
     email: "roy07948@stthomas.edu",
     department: "Health and Exercise Science",
@@ -608,11 +438,20 @@ const ideasData = [
     aiTools: ["BoodleBox", "PromptBot", "Claude"],
     useCases: ["Content Creation", "Course Design", "Instructor Efficiency"],
     resourceType: "pdf",
-    resourceUrl: "public/resources/Assignment-Redesign-Converting-an-individual-reflection-assignment-to-a-discussion-board.pdf",
-    tags: ["Gamification", "Curriculum Revision", "AI-Resistant", "Assignment Redesign", "Discussion", "Hybrid", "Online"],
+    resourceUrl:
+      "public/resources/Assignment-Redesign-Converting-an-individual-reflection-assignment-to-a-discussion-board.pdf",
+    tags: [
+      "Gamification",
+      "Curriculum Revision",
+      "AI-Resistant",
+      "Assignment Redesign",
+      "Discussion",
+      "Hybrid",
+      "Online",
+    ],
   },
   {
-    id: 19,
+    id: 14,
     title: "Designing AI-Resistant Video Reflection Assignments",
     author: "Amber Roy",
     email: "roy07948@stthomas.edu",
@@ -643,11 +482,18 @@ const ideasData = [
     aiTools: ["BoodleBox", "PromptBot"],
     useCases: ["Content Creation", "Course Design", "Instructor Efficiency"],
     resourceType: "pdf",
-    resourceUrl: "public/resources/Assignment-Redesign-Designing-AI-Resistant-Video-Reflection-Assignments.pdf",
-    tags: ["AI-Resistant", "Video", "Reflection", "Curriculum Revision", "Online"],
+    resourceUrl:
+      "public/resources/Assignment-Redesign-Designing-AI-Resistant-Video-Reflection-Assignments.pdf",
+    tags: [
+      "AI-Resistant",
+      "Video",
+      "Reflection",
+      "Curriculum Revision",
+      "Online",
+    ],
   },
   {
-    id: 20,
+    id: 15,
     title: "Revising a Large, Multi-Step Hybrid Project to an Online Project",
     author: "Amber Roy",
     email: "roy07948@stthomas.edu",
@@ -673,13 +519,19 @@ const ideasData = [
       </p>
     `,
     aiTools: ["BoodleBox", "PromptBot", "Claude"],
-    useCases: ["Content Creation", "Course Design", "Instructor Efficiency", "Student Projects"],
+    useCases: [
+      "Content Creation",
+      "Course Design",
+      "Instructor Efficiency",
+      "Student Projects",
+    ],
     resourceType: "pdf",
-    resourceUrl: "public/resources/Assignment-Redesign-Revising-a-Large-Multi-Step-Hybrid-Project-to-an-Online-Project.pdf",
+    resourceUrl:
+      "public/resources/Assignment-Redesign-Revising-a-Large-Multi-Step-Hybrid-Project-to-an-Online-Project.pdf",
     tags: ["Curriculum", "Revision", "Hybrid", "Online", "Project"],
   },
   {
-    id: 21,
+    id: 16,
     title: "Restructuring a Topic Research Assignment",
     author: "Amber Roy",
     email: "roy07948@stthomas.edu",
@@ -711,13 +563,25 @@ const ideasData = [
       </p>
     `,
     aiTools: ["BoodleBox", "Claude"],
-    useCases: ["Content Creation", "Course Design", "Instructor Efficiency", "Student Projects"],
+    useCases: [
+      "Content Creation",
+      "Course Design",
+      "Instructor Efficiency",
+      "Student Projects",
+    ],
     resourceType: "pdf",
-    resourceUrl: "public/resources/Assignment-Redesign-Restructuring-a-Topic-Research-Assignment.pdf",
-    tags: ["Curriculum Revision", "Online", "Research", "Project", "Evaluation"],
+    resourceUrl:
+      "public/resources/Assignment-Redesign-Restructuring-a-Topic-Research-Assignment.pdf",
+    tags: [
+      "Curriculum Revision",
+      "Online",
+      "Research",
+      "Project",
+      "Evaluation",
+    ],
   },
   {
-    id: 22,
+    id: 17,
     title: "Source Evaluation Coach",
     author: "Scott Kaihoi",
     email: "s.kaihoi@stthomas.edu",
@@ -753,7 +617,7 @@ const ideasData = [
     tags: ["Research"],
   },
   {
-    id: 23,
+    id: 18,
     title: "AI Writing Coach: An AI Tool for Faculty Across Disciplines",
     author: "Suzy Kaback",
     email: "KABA7765@STTHOMAS.EDU",
@@ -795,7 +659,7 @@ const ideasData = [
     tags: ["Writing", "Tutor", "Coach", "Discipline-Specific"],
   },
   {
-    id: 24,
+    id: 19,
     title: "AI-Assisted Revision and Reflection in German Professional Writing",
     author: "Susanne Wagner",
     email: "wagn9302@stthomas.edu",
@@ -818,9 +682,17 @@ const ideasData = [
       </p>
     `,
     aiTools: ["ChatGPT", "BoodleBox", "Claude"],
-    useCases: ["Accessibility", "Content Creation", "Student Projects", "Workforce Development", "Language Acquisition", "Writing Skills"],
+    useCases: [
+      "Accessibility",
+      "Content Creation",
+      "Student Projects",
+      "Workforce Development",
+      "Language Acquisition",
+      "Writing Skills",
+    ],
     resourceType: "pdf",
-    resourceUrl: "public/resources/Prompt-Engineering-and-Reflection-Activites-for-Foreign-Language-Teaching.pdf",
+    resourceUrl:
+      "public/resources/Prompt-Engineering-and-Reflection-Activites-for-Foreign-Language-Teaching.pdf",
     tags: [
       "Prompt Engineering",
       "Student Projects",
@@ -834,8 +706,9 @@ const ideasData = [
     ],
   },
   {
-    id: 25,
-    title: "AI-Enabled Role-Play Simulations for Teaching Environmental Conflict Negotiation",
+    id: 20,
+    title:
+      "AI-Enabled Role-Play Simulations for Teaching Environmental Conflict Negotiation",
     author: "Obasesam Okoi",
     email: "okoi2278@stthomas.edu",
     department: "Justice and Society Studies",
@@ -975,19 +848,32 @@ const ideasData = [
         governance.
       </p>
     `,
-    aiTools: ["ChatGPT", "BoodleBox", "InVideo AI", "Mediator Bot", "Stakeholder Bots", "Observer Bot"],
-    useCases: ["Collaboration", "Content Creation", "Course Design", "Student Projects"],
+    aiTools: [
+      "ChatGPT",
+      "BoodleBox",
+      "InVideo AI",
+      "Mediator Bot",
+      "Stakeholder Bots",
+      "Observer Bot",
+    ],
+    useCases: [
+      "Collaboration",
+      "Content Creation",
+      "Course Design",
+      "Student Projects",
+    ],
     resourceType: "pdf",
-    resourceUrl: "public/resources/AI-Enabled-Role-Play-Simulations-for-Teaching-Environmental-Conflict-Negotiation.pdf",
+    resourceUrl:
+      "public/resources/AI-Enabled-Role-Play-Simulations-for-Teaching-Environmental-Conflict-Negotiation.pdf",
     tags: [
       "Digital Peacebuilding",
       "AI-Mediated Negotiations",
       "PeaceTech",
-      "Environmental Conflict Resolution"
+      "Environmental Conflict Resolution",
     ],
   },
   {
-    id: 26,
+    id: 21,
     title: "Generating Datasets for Assignments",
     author: "Jordan Barlow",
     email: "jordan.barlow@stthomas.edu",
@@ -1083,16 +969,10 @@ const ideasData = [
     useCases: ["Instructor Efficiency", "Content Creation", "Student Projects"],
     resourceType: "pdf",
     resourceUrl: "public/resources/Generating-Datasets-for-Assignments.pdf",
-    tags: [
-      "Data",
-      "Dataset",
-      "Assignment",
-      "Project",
-      "Synthetic",
-    ],
+    tags: ["Data", "Dataset", "Assignment", "Project", "Synthetic"],
   },
   {
-    id: 27,
+    id: 22,
     title: "Creating Video Transcripts",
     author: "Nancy McGinley Myers",
     email: "mcgi0084@stthomas.edu",
@@ -1128,14 +1008,14 @@ const ideasData = [
     aiTools: ["Copilot"],
     useCases: ["Accessibility"],
     resourceType: "url",
-    resourceUrl: "https://services.stthomas.edu/TDClient/1898/ClientPortal/KB/ArticleDet?ID=167313",
-    tags: [
-      "Transcripts",
-    ],
+    resourceUrl:
+      "https://services.stthomas.edu/TDClient/1898/ClientPortal/KB/ArticleDet?ID=167313",
+    tags: ["Transcripts"],
   },
   {
-    id: 28,
-    title: "AI Resume-Writing in German: Help Students Tailor Their Foreign Language Resume to a Specific Job Application",
+    id: 23,
+    title:
+      "AI Resume-Writing in German: Help Students Tailor Their Foreign Language Resume to a Specific Job Application",
     author: "Susanne Wagner",
     email: "wagn9302@stthomas.edu",
     department: "Modern and Classical Languages",
@@ -1181,12 +1061,16 @@ const ideasData = [
         ultimately increasing the likelihood of success within modern, AI-supported job application review systems.
       </p>
     `,
-    aiTools: [
-      "BoodleBox",
-      "RoleBot Resume Writer",
-      "ResumeBot",
+    aiTools: ["BoodleBox", "RoleBot Resume Writer", "ResumeBot"],
+    useCases: [
+      "Assessment",
+      "Collaboration",
+      "Content Creation",
+      "Student Projects",
+      "Language Acquisition",
+      "Professional Writing",
+      "Workforce Development",
     ],
-    useCases: ["Assessment", "Collaboration", "Content Creation", "Student Projects", "Language Acquisition", "Professional Writing", "Workforce Development"],
     resourceType: "pdf",
     resourceUrl: "public/resources/AI-Resume-Tailoring.pdf",
     tags: [
@@ -1202,8 +1086,9 @@ const ideasData = [
     ],
   },
   {
-    id: 29,
-    title: "AI-Assisted Grading: Evaluating Whether Students Implemented Instructor Feedback",
+    id: 24,
+    title:
+      "AI-Assisted Grading: Evaluating Whether Students Implemented Instructor Feedback",
     author: "Susanne Wagner",
     email: "wagn9302@stthomas.edu",
     department: "Modern and Classical Languages",
@@ -1270,15 +1155,12 @@ const ideasData = [
     useCases: ["Assessment"],
     resourceType: "",
     resourceUrl: "",
-    tags: [
-      "Feedback",
-      "Assignments",
-      "Grading"
-    ],
+    tags: ["Feedback", "Assignments", "Grading"],
   },
   {
-    id: 30,
-    title: "Job Interview Preparation in German: Training with ChatGPT Voice Mode",
+    id: 25,
+    title:
+      "Job Interview Preparation in German: Training with ChatGPT Voice Mode",
     author: "Susanne Wagner",
     email: "wagn9302@stthomas.edu",
     department: "Modern and Classical Languages",
@@ -1361,9 +1243,17 @@ const ideasData = [
       </p>
     `,
     aiTools: ["ChatGPT Voice Mode"],
-    useCases: ["Assessment", "Collaboration", "Content Creation", "Student Projects", "Language Training", "Workforce Development"],
+    useCases: [
+      "Assessment",
+      "Collaboration",
+      "Content Creation",
+      "Student Projects",
+      "Language Training",
+      "Workforce Development",
+    ],
     resourceType: "pdf",
-    resourceUrl: "public/resources/Job-Interview-Prep-ChatGPT-Voice-Mode-Student-Reflections.pdf",
+    resourceUrl:
+      "public/resources/Job-Interview-Prep-ChatGPT-Voice-Mode-Student-Reflections.pdf",
     tags: [
       "Prompt Engineering",
       "German",
@@ -1374,8 +1264,9 @@ const ideasData = [
     ],
   },
   {
-    id: 31,
-    title: "Designing AI-Enabled Role-Play Simulations for Teaching Environmental Conflict Negotiation",
+    id: 26,
+    title:
+      "Designing AI-Enabled Role-Play Simulations for Teaching Environmental Conflict Negotiation",
     author: "Matthew Vernon",
     email: "vern0007@stthomas.edu",
     department: "STELAR",
@@ -1402,13 +1293,18 @@ const ideasData = [
       </ol>
     `,
     aiTools: ["BoodleBox", "ChatGPT", "Claude"],
-    useCases: ["Negotiation", "Role Play", "Student Engagement", "Formative Assessment"],
+    useCases: [
+      "Negotiation",
+      "Role Play",
+      "Student Engagement",
+      "Formative Assessment",
+    ],
     resourceType: "pdf",
     resourceUrl: "public/resources/Nile-Delta-Negotiation-Simultation.pdf",
-    tags: ["Simulation", "Context Engineering", "Negotiation Practice"]
+    tags: ["Simulation", "Context Engineering", "Negotiation Practice"],
   },
   {
-    id: 32,
+    id: 27,
     title: "Updating Accreditation Standards and Combining Field Manuals",
     author: "Glori Hinck",
     email: "ghinck@stthomas.edu",
@@ -1472,7 +1368,7 @@ const ideasData = [
     tags: ["Accreditation", "ADEI"],
   },
   {
-    id: 33,
+    id: 28,
     title: "Developing Medical Case Studies with AI",
     author: "Glori Hinck",
     email: "ghinck@stthomas.edu",
@@ -1542,8 +1438,9 @@ const ideasData = [
     tags: ["Case Studies"],
   },
   {
-    id: 34,
-    title: "Alt Text Writing Guide as an Alternative Format to a PDF Flow Chart",
+    id: 29,
+    title:
+      "Alt Text Writing Guide as an Alternative Format to a PDF Flow Chart",
     author: "Jo Montie",
     email: "jkmontie@stthomas.edu",
     department: "STELAR",
@@ -1589,10 +1486,10 @@ const ideasData = [
     tags: ["Accessibility", "Alt Text"],
   },
   {
-    id: 35,
+    id: 30,
     title: "Digital Accessibility Module Discussion Data Analysis",
     author: "Meenu Bala",
-    email: "bala5797@stthomas.edu",
+    email: "stelar@stthomas.edu",
     department: "STELAR",
     date: "2025-11-22",
     description: `
@@ -1637,7 +1534,7 @@ const ideasData = [
     tags: ["Data Analysis"],
   },
   {
-    id: 36,
+    id: 31,
     title: "MegaMentor GPT",
     author: "Ellie Speedling",
     email: "ellie.speedling@stthomas.edu",
@@ -1695,7 +1592,7 @@ const ideasData = [
     tags: ["ChatGPT", "Relationship Building", "Mentorship"],
   },
   {
-    id: 37,
+    id: 32,
     title: "Quantum Chemistry Demonstration Site",
     author: "Joshua Layfield",
     email: "jlayfield@stthomas.edu",
@@ -1704,7 +1601,9 @@ const ideasData = [
     description: `
       <p>
         I built a demonstration website for a series of topics in my Quantum Chemistry.
-        jolayfield.github.io/CHEM332-content
+      </p>
+      <p>
+        Check out the website here: <a href="https://jolayfield.github.io/CHEM332-content" target="_blank">jolayfield.github.io/CHEM332-content</a>
       </p>
     `,
     aiTools: ["Claude", "Gemini", "Antigravity"],
@@ -1712,5 +1611,122 @@ const ideasData = [
     resourceType: "pdf",
     resourceUrl: "public/resources/Quantum-Chem-Project-Overview.pdf",
     tags: ["Chemistry", "Quantum Mechanics", "Teaching Tools"],
-  }
+  },
+  {
+    id: 33,
+    title:
+      "AI as a Co-Pilot: Integrating Generative AI Across Research, Teaching, and Course Design",
+    author: "Thomas Hickson",
+    email: "tahickson@stthomas.edu",
+    department: "Earth, Environment, & Society",
+    date: "2026-04-26",
+    description: `
+      <p><strong>Tools used</strong></p>
+      <p>
+        I have primarily used large language models (e.g., ChatGPT) as a flexible, general-purpose assistant across research, teaching, and course design. In addition, I integrate AI conceptually into student workflows as a revision and research support tool rather than a content generator.
+      </p>
+
+      <p><strong>Approach</strong></p>
+      <p>
+        I use AI as an iterative collaborator rather than a source of final answers. My implementation falls into three main areas:
+      </p>
+
+      <p><strong>1. Research and data analysis</strong></p>
+      <p>
+        I use AI to support statistical analysis and coding in R, particularly as I work with more advanced methods (e.g., cumulative link mixed models). This includes debugging code, structuring workflows, refining visualizations, and helping interpret model outputs. AI allows me to move more efficiently between conceptual questions and implementation, especially when working across multiple packages and complex datasets.
+      </p>
+      <p>
+        In manuscript development, I use AI as a second reader and editor. I draft all core content myself, then use AI to refine clarity, improve structure, and help respond to reviewer comments in a systematic way.
+      </p>
+
+      <p><strong>2. Teaching and course design</strong></p>
+      <p>
+        I use AI extensively to build and refine assignments, labs, and rubrics. This includes:
+      </p>
+      <div style="margin-left: 20px;">
+        <ul>
+          <li>Designing scaffolded assignments (proposal → progress → final report)</li>
+          <li>Generating clear, structured instructions for students</li>
+          <li>Creating Canvas-ready materials (HTML pages, rubrics, prompts)</li>
+          <li>Troubleshooting technical workflows (e.g., GIS tools, remote sensing data access)</li>
+        </ul>
+      </div>
+      <p>
+        More importantly, I explicitly integrate AI into student learning. In several assignments, students are required to:
+      </p>
+      <div style="margin-left: 20px;">
+        <ul>
+          <li>Use AI to revise their work</li>
+          <li>Document their interaction with the AI</li>
+          <li>Compare original, AI-edited, and final versions</li>
+        </ul>
+      </div>
+      <p>
+        This positions AI as a transparent tool for revision and critical thinking, rather than something to avoid or misuse.
+      </p>
+
+      <p><strong>3. Research infrastructure and tool development</strong></p>
+      <p>
+        In a long-term research project (a relational database for microbialite analysis), I use AI to support system design and development across multiple layers:
+      </p>
+      <div style="margin-left: 20px;">
+        <ul>
+          <li>Database schema design (PostgreSQL)</li>
+          <li>Backend API development (Node/Express)</li>
+          <li>Frontend structure (React)</li>
+          <li>Image workflows (large scientific image tiling and visualization)</li>
+        </ul>
+      </div>
+      <p>
+        AI is particularly valuable here as a “translator” between older systems I’ve used extensively (e.g., MS Access) and newer web-based architectures. It allows me to build and understand a full-stack system while learning incrementally.
+      </p>
+
+      <p><strong>Challenges</strong></p>
+      <p>
+        The primary challenge is ensuring that AI use remains intentional and transparent.
+      </p>
+      <div style="margin-left: 20px;">
+        <ul>
+          <li>AI can produce plausible but incorrect outputs, especially in technical contexts (coding, statistics), so all results require verification.</li>
+          <li>There is a risk of over-reliance, particularly for students, which I address by requiring documentation and comparison of AI-assisted work.</li>
+          <li>Integrating AI into assignments requires careful design so that it enhances learning rather than short-circuiting it.</li>
+        </ul>
+      </div>
+
+      <p><strong>Outcomes</strong></p>
+      <p>
+        Using AI in this way has led to several clear outcomes:
+      </p>
+      <div style="margin-left: 20px;">
+        <ul>
+          <li>Increased efficiency in coding, data analysis, and troubleshooting</li>
+          <li>Improved clarity and organization in written work and teaching materials</li>
+          <li>More rapid iteration in both research and course design</li>
+          <li>Enhanced student engagement with AI as a tool, rather than a shortcut</li>
+        </ul>
+      </div>
+      <p>
+        More broadly, this approach has allowed me to treat AI as a general-purpose intellectual support tool—one that helps reduce friction in technical and creative work while keeping domain expertise and critical thinking at the center.
+      </p>
+    `,
+    aiTools: ["ChatGPT"],
+    useCases: [
+      "Content Creation",
+      "Instructor Efficiency",
+      "Student Projects",
+      "Course Design",
+      "Grading",
+      "Assessment",
+    ],
+    resourceType: "pdf",
+    resourceUrl: "public/resources/Quantum-Chem-Project-Overview.pdf",
+    tags: [
+      "Peer Reviewed Publication",
+      "Research Assistant",
+      "Efficiency",
+      "Geology",
+      "Environmental Science",
+      "Data Analysis",
+    ],
+  },
 ];
