@@ -1751,4 +1751,53 @@ const ideasData = [
       "Data Analysis",
     ],
   },
+  {
+    id: 34,
+    title: "AI-Assisted Case Study Development- A Human-in-the Loop Framework",
+    author: "Glori Hinck and Lesley Scibora",
+    email: "ghinck@stthomas.edu",
+    department: "STELAR and HES",
+    date: "2026-05-04",
+    description: `
+      <p>
+        The purpose of this project is to reduce the time spent by faculty in developing custom case study scenarios across disciplines.
+      </p>
+
+      <p>
+        We used a 'free' model (Claude 4.5 Haiku) in the BoodleBox platform to create and iterate two custom bots. Since a free model is used, these bots can be accessed without a paid BoodleBox account.
+      </p>
+
+      <p>
+        Click on the links below to access the Anatomy Case Study Developer and the Business Case Study Bot.
+      </p>
+
+      <p>
+        The bots:
+        <br />
+        <a href="https://box.boodle.ai/a/@AnatomyCaseStudyDeveloper" target="_blank">
+          Anatomy Case Study Developer
+        </a>
+        <br />
+        <a href="https://box.boodle.ai/a/@DRAFTBusinessCaseStudyBot" target="_blank">
+          DRAFT Business Case Study Bot
+        </a>
+      </p>
+
+      <p>
+        View a sample chat thread:
+        <a href="https://universityofsaintthomas.github.io/AI-Toolkit/public/resources/Chat-History-Shingles-Case.pdf" target="_blank">
+          Chat History Shingles Case
+        </a>
+      </p>
+
+      <p>
+        Find project details and full prompting strategies in the attached document.
+      </p>
+    `,
+    aiTools: ["BoodleBox", "Claude"],
+    useCases: ["Content Creation", "Course Design", "Instructor Efficiency"],
+    resourceType: "pdf",
+    resourceUrl: "public/resources/Human-in-the-Loop-Case-Study-Bot.pdf",
+    tags: ["Anatomy", "Medical", "Business", "Bot", "Case Based Learning"],
+  },
 ];
