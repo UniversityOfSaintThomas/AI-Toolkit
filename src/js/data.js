@@ -1800,22 +1800,4 @@ const ideasData = [
     resourceUrl: "public/resources/Human-in-the-Loop-Case-Study-Bot.pdf",
     tags: ["Anatomy", "Medical", "Business", "Bot", "Case Based Learning"],
   },
-  {
-    id: 35,
-    title: "This is new!",
-    author: "Test User",
-    email: "ghinck@stthomas.edu",
-    department: "STELAR",
-    date: "2026-05-08",
-    description: `
-      <p>
-        This is also new!
-      </p>
-    `,
-    aiTools: ["BoodleBox", "Claude"],
-    useCases: ["Content Creation", "Course Design", "Instructor Efficiency"],
-    resourceType: "pdf",
-    resourceUrl: "public/resources/This-is-New.pdf",
-    tags: ["Anatomy", "Medical", "Business", "Bot", "Case Based Learning"],
-  },
 ];
